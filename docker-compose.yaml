@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  favourite-app:
+    build:
+      context: .
+    ports:
+      - 1234:3000
